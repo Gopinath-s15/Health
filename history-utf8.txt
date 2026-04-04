@@ -1,0 +1,20 @@
+﻿git status
+cd 'c:\Users\virat\Desktop\Proper Health'
+git restore .
+cd 'c:\Users\virat\Desktop\Proper Health'
+git status
+npm run dev
+cd 'c:/Users/virat/Desktop/pwa/Health-main'
+npm run dev
+bun --version
+node -v; yarn -v; pnpm -v
+pnpm install
+pnpm run dev
+cd 'c:\Users\virat\Desktop\Proper Health'
+git status; git log -n 3
+cd 'c:\Users\virat\Desktop\Proper Health'
+Get-Content (Get-PSReadLineOption).HistorySavePath -Tail 20
+cd 'c:\Users\virat\Desktop\Proper Health'
+git --no-pager status; git --no-pager diff package.json
+cd 'c:\Users\virat\Desktop\Proper Health'
+Get-Content (Get-PSReadLineOption).HistorySavePath -Tail 20 > history.txt

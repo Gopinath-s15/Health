@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <title>HealthTwin AI - AI-Powered Prescription Digitization & Health Records</title>
+    <meta name="description" content="HealthTwin AI transforms paper prescriptions into structured digital health records using AI-powered OCR. Manage medicines, set reminders, and access your complete health timeline." />
+    <meta name="author" content="HealthTwin AI" />
+    <meta name="keywords" content="AI prescription digitization, rural healthcare digital records, medical OCR system, health record management, medicine reminders, digital health twin" />
+    
+    <meta property="og:title" content="HealthTwin AI - Digital Health Records" />
+    <meta property="og:description" content="AI-powered prescription digitization and intelligent health record management for everyone." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon-512.png" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HealthTwin AI" />
+    <meta name="twitter:description" content="AI-powered prescription digitization and health record management." />
+    <meta name="twitter:image" content="/icon-512.png" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1a9a7a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="HealthTwin" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="icon" type="image/png" href="/icon-192.png" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      "name": "HealthTwin AI",
+      "description": "AI-powered prescription digitization and intelligent health record management.",
+      "url": "https://healthtwin.app",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+
+    <!-- FAQ Schema for AEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is prescription OCR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prescription OCR uses AI to scan and extract medicine names, dosages, and instructions from handwritten or printed prescriptions, converting them into structured digital records."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does HealthTwin AI reduce medication errors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HealthTwin AI digitizes prescriptions accurately, provides medicine reminders with timing and food instructions, and maintains a complete health timeline to prevent conflicts and missed doses."
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
